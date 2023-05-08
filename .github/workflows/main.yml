@@ -1,7 +1,6 @@
 name: '微信定时推送任务'
 on:
-  schedule:
-    - cron: '46 4 * * *'
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
