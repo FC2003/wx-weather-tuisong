@@ -1,7 +1,7 @@
 name: '微信定时推送任务'
 on:
   schedule:
-    - cron: '45 3 * * *'
+    - cron: '55 3 * * *'
 permissions:
   contents: read
 jobs:
@@ -19,4 +19,4 @@ jobs:
         pip install requests
     - name: '发送消息'
       run: |
-        python ./main.py
+        python main.py
