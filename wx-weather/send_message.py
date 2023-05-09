@@ -12,7 +12,7 @@ from datetime import datetime
 
 class SendMessage(object):
     # 消息接收者
-    TOUSER = 'oDCvo5mSgscgpdMFGBNY5HTCc0wM'
+    TOUSER = 'oDCvo5vnQwHKOotNjqdqMudawU8M'
     # 消息模板id
     TEMPLATE_ID = 'MfA5aOWI176n6IKVMbVoNzCKOkvlzDSwT6ADs0z-Pbk'
 
