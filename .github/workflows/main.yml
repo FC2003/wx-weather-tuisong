@@ -1,7 +1,7 @@
 name: 'wx-tuisong'
 on:
   repository_dispatch:
-  
+    types: [wx-tuisong-begin]
 permissions:
   contents: read
 jobs:
